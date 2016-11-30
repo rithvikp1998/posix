@@ -1,3 +1,10 @@
+/* Collatz conjecture states that for any positive integer n, if you perform
+   the following operation, it will eventually lead to 1
+
+   The operation is this: n=n/2 if n is even
+			  n=3*n+1 if n is odd			*/
+
+
 #include<sys/wait.h>
 #include<stdio.h>
 #include<sys/types.h>
