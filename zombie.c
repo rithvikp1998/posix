@@ -23,7 +23,7 @@ int main(){
 		return 1;
 	}
 	else{
-		printf("PPID: %d \n", pid);
+		printf("PID of child: %d \n", pid);
 		sleep(30);
 		wait(NULL);
 		printf("Child complete\n");
