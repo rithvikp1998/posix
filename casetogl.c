@@ -1,5 +1,6 @@
 /* The following code has a parent and a child and two ordinary pipes between them. The child writes a message to pipe 1. The parent reads the msg from pipe 1, prints it, toggles the case of characters(lower case to upper case and vice versa) and writes it to pipe 2. The child now reads message from pipe 2, prints it and terminates. The parent also terminates 
-P.S. The read function waits until it finds a message				 */
+P.S. The read function waits until it finds a message. The read function can identify an EOF. You can close an end of pipe to denote EOF.		 */
+
 #include<stdio.h>
 #include<unistd.h>
 #include<sys/types.h>
